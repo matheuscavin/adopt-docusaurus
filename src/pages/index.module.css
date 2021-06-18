@@ -23,3 +23,10 @@
   align-items: center;
   justify-content: center;
 }
+
+.navbar__item{
+  background: red !important;
+}
+span > svg{
+  display: none !important;
+}

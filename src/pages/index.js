@@ -29,8 +29,8 @@ export default function Home() {
   const {siteConfig} = useDocusaurusContext();
   return (
     <Layout
-      title={`Hello from ${siteConfig.title}`}
-      description="Description will go into a meta tag in <head />">
+      title={`${siteConfig.title}`}
+      description="A Adopt informa os usuários do seu site de maneira transparente quais dados são coletados e gerencia todos os consentimentos atualizados como é exigido na LGPD. Isso garante que você fique seguro e crie uma relação de confiança com seus usuários.">
       <HomepageHeader />
       <main>
         <HomepageFeatures />

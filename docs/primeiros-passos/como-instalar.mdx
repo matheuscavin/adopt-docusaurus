@@ -1,0 +1,46 @@
+---
+sidebar_position: 1
+---
+
+# Como instalar
+
+Você pode instalar a AdOpt Tag pelo **Google Tag Manager (GTM)** ou diretamente no código fonte do seu projeto. 
+A nossa recomendação é que você faça a instalação via **GTM**, garantindo o funcionamento de todas as ferramentas.
+
+## Passo 1 - Copie sua tag
+
+Para encontrar sua Tag Adopt é muito simple, logo após acessar o https://app.goadopt.io, no cabeçalho – topo do site, você verá um aviso:
+
+![Docusaurus logo](/img/tagAdopt.png)
+
+Ao clicar no `<> Código do Aviso` você terá acesso a sua Tag, basta copiar e colar no `<head>` do seu site.
+
+![Docusaurus logo](/img/tagCopy.png)
+
+## Passo 2 - Inserindo sua Tag no código
+
+Finalmente, cole a Tag copiada anteriormente dentro do `<head>` do seu site, conforme o exemplo a seguir:
+
+```text title="index.html"
+<!DOCTYPE html>
+<html>
+  <head>
+    ...
+    <meta 
+    name="adopt-website-id" 
+    content="00000000-0000-0000-0000-000000000000" />
+    <script 
+    src="//tag.goadopt.io/injector.js?website_code=00000000-0000-0000-0000-000000000000" 
+    class="adopt-injector"></script>
+  </head>
+  <body>
+    ...
+  </body>
+</html>
+```
+
+
+
+:::info Observação
+O website code ("00000000-0000-0000-0000-000000000000") utilizado no exemplo é meramente ilustrativo, você deve manter o código igual ao copiado de nosso site
+:::

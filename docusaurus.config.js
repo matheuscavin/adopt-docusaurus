@@ -10,8 +10,14 @@ module.exports = {
   organizationName: 'facebook', // Usually your GitHub org/user name.
   projectName: 'docusaurus', // Usually your repo name.
   themeConfig: {
+    colorMode:{
+      switchConfig: {
+        darkIcon: ' ',
+        lightIcon: ' ',
+      }
+    },
     navbar: {
-      title: 'My Site',
+      title: '',
       logo: {
         alt: 'My Site Logo',
         src: 'img/logo.svg',
@@ -25,8 +31,7 @@ module.exports = {
         },
         {to: '/blog', label: 'Blog', position: 'left'},
         {
-          href: 'https://github.com/facebook/docusaurus',
-          label: 'GitHub',
+          type: 'localeDropdown',
           position: 'right',
         },
       ],
@@ -35,46 +40,44 @@ module.exports = {
       style: 'dark',
       links: [
         {
-          title: 'Docs',
-          items: [
-            {
-              label: 'Tutorial',
-              to: '/docs/intro',
-            },
-          ],
+          title: 'AdOpt',
         },
         {
           title: 'Community',
           items: [
             {
-              label: 'Stack Overflow',
-              href: 'https://stackoverflow.com/questions/tagged/docusaurus',
+              label: 'Ajuda',
+              href: 'https://adopt-help.freshdesk.com/support/home',
             },
             {
-              label: 'Discord',
-              href: 'https://discordapp.com/invite/docusaurus',
+              label: 'Política de privacidade',
+              href: 'https://goadopt.io/politica-de-privacidade',
             },
             {
-              label: 'Twitter',
-              href: 'https://twitter.com/docusaurus',
+              label: 'Termos de uso',
+              href: 'https://goadopt.io/termos-de-uso',
             },
           ],
         },
         {
-          title: 'More',
+          title: 'Comunidade',
           items: [
+            {
+              label: 'Tutorial',
+              href: '/docs/intro',
+            },
             {
               label: 'Blog',
               to: '/blog',
             },
             {
-              label: 'GitHub',
-              href: 'https://github.com/facebook/docusaurus',
+              label: 'Site',
+              href: 'https://goadopt.io',
             },
           ],
         },
       ],
-      copyright: `Copyright © ${new Date().getFullYear()} My Project, Inc. Built with Docusaurus.`,
+      copyright: `Copyright © ${new Date().getFullYear()} Go AdOpt`,
     },
   },
   presets: [
@@ -99,5 +102,17 @@ module.exports = {
       },
     ],
   ],
+  i18n: {
+    defaultLocale: 'pt',
+    locales: ['en', 'pt'],
+    localeConfigs: {
+      pt: {
+        label: 'Português',
+      },
+      en: {
+        label: 'English',
+      },
+    },
+  },
 };
 
