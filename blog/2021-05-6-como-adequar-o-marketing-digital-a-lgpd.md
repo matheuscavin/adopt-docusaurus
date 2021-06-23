@@ -3,8 +3,7 @@ slug: como-adequar-o-marketing-digital-a-LGPD
 title: Como adequar o marketing digital à LGPD
 author: João Soares
 author_title: Equipe AdOpt
-author_url: https://github.com/wgao19
-author_image_url: https://avatars1.githubusercontent.com/u/2055384?v=4
+author_image_url: https://media-exp1.licdn.com/dms/image/C4E03AQHV-lK1Qcuckw/profile-displayphoto-shrink_800_800/0/1612290015349?e=1629331200&v=beta&t=XeJAAd3r4oTkA64ugbrcS5VE9jYcE5UpbnqjL2rpE4g
 tags: [Bases legais, LGPD, Marketing]
 ---
 
